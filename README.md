@@ -8,4 +8,4 @@
 4. install PECL packages: mongodb, imagemagick, and tidy
 5. php version must be > 5.1
 6. mount your drive as -noatime,ACL,ext4
-7. Have fun super !!
+7. Have super fun-fun!!!
