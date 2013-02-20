@@ -1,0 +1,575 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	font-family: 'Droid Sans Mono';
+	font-size: 14px;
+	text-rendering: optimizeLegibility;
+}
+
+.highlight {
+	background-color: rgba(255, 255, 0, 0.5);
+	color: red;
+}
+
+/* ======================================================== HEADER */
+
+#logo p {
+	font-size: 15px;
+	font-weight: bold;
+	padding-top: 5px;
+	color: white;
+}
+
+
+#accountLink {
+	float: right;
+	min-width: 160px;
+	font-size: 12px;
+}	
+
+/* ======================================================== FOOTER */
+
+footer p {
+	font-size: 12px;
+	padding: 8px 0 0 20px;
+	color: white;
+}
+
+
+/* ======================================================== CONTENT */
+
+.content.padded {
+	padding: 10px;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content p,
+.content li {
+	font-family: 'Droid Sans';
+	color: #333;
+	padding-bottom: 10px;
+}
+
+.content h1,
+#popup h1 {
+	font-size: 21px;
+}
+
+.content h2,
+#popup h2 {
+	font-size: 18px;
+}
+.content h3,
+#popup h3 {
+	font-size: 15px;
+}
+.content h4,
+.content h5,
+#popup h4,
+#popup h5 {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.content li,
+#popup li {
+	font-size: 13px;
+	line-height: 15px;
+	padding: 0 0 5px 5px;
+	margin-left: 20px;
+	list-style: square;
+}
+
+.content p,
+#popup p {
+	padding-bottom: 10px;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+
+h1.dashLeft {
+	float: left;
+}
+
+p.dashRight {
+	float: right;
+}
+
+p.dashRight a.button {
+	min-width: 180px;
+}
+
+.right {
+	text-align: right;
+}
+
+#popup {
+	background-color: white;
+}
+
+/* Instructions */ 
+
+.content.instructions hr {
+	margin: 15px 0;
+}
+
+.content.instructions li,
+.content.instructions p {
+	padding-right: 200px;
+	padding-bottom: 10px;
+}
+
+.content.instructions p {
+	line-height: 20px;
+}
+
+.content.instructions ul {
+	padding-top: 10px;
+}
+
+/* ======================================================== SYSTEM MESSAGES */
+
+
+.content.error {
+	padding: 10px 10px 10px 45px;
+	min-height: 3px;
+	background-image: url(../assets/icons/90-life-buoy.png);
+	background-position: 10px center;
+	background-repeat: no-repeat;
+	border: 2px solid #cd0a0a;
+	background-color: #f8dada;
+}
+
+#dashboard .content.message {
+	margin-left: 20px;
+}
+
+.content.message {
+	padding: 10px 10px 10px 45px;
+	min-height: 3px;
+	background-image: url(../assets/icons/184-warning.png);
+	background-position: 10px center;
+	background-repeat: no-repeat;
+	border: 2px solid navy;
+	background-color: #e5e5f2;
+	margin-left: 190px;
+}
+
+.messageBox {
+	float: left;
+	width: 90%;
+}
+
+.closeBox {
+	width: 10px;
+	float: right;
+}
+
+.content.error p {
+	color: #cd0a0a;
+}
+
+.content.message p {
+	color: navy;
+}
+
+
+
+/* ======================================================== FORM ELEMENTS */
+
+input[type=text],
+input[type=number],
+input[type=password],
+input[type=email],
+textarea {
+	font-size: 13px;
+	margin: 1px;
+	border: 1px solid #999;
+	color: #666;
+	padding: 5px;
+	background-color: #EFEFEF;
+	box-shadow: inset 0px 0px 5px rgba(0,0,0,0.2);
+	width: 300px;
+	border-radius: 2px;
+}
+
+input[type=number] {
+	width: 300px;
+}
+
+table.pretty input[type=text],
+table.pretty input[type=password],
+table.pretty input[type=email],
+table.pretty textarea {
+	width: 560px;
+}
+
+table.pretty select {
+	width: 570px;
+}
+
+input[type=text]:hover,
+input[type=password]:hover,
+textarea:hover {
+	border: 1px solid #007236;
+}
+
+textarea {
+	height: 150px;
+	border-radius: 2px;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=number]:focus,
+input[type=email]:focus,
+textarea:focus {
+	color: black;
+	border: 1px solid #007236;
+	margin: 1px;
+	background-color: #FFF;
+	background-image: none;
+	box-shadow: inset 0px 0px 5px rgba(0,0,0,0.3);
+}
+
+table.pretty input.smallInput,
+input.smallInput {
+	width: 330px;
+}
+
+div.ui-widget .ui-widget-content .ui-autocomplete-input:focus {
+	color: black;
+	margin: 0px;
+	background-color: #FFF;
+	background-image: none;
+	box-shadow: inset 0px 0px 5px rgba(0,0,0,0.3);
+}
+
+select {
+	width: 310px;
+}
+
+/* ======================================================== LOGIN */
+
+#login.content {
+	width: 314px;
+	min-height: 200px;
+	margin: 150px auto;
+	box-shadow: 0px 0px 15px #888;
+	display: block;
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.content p.passForgot {
+	padding-top: 15px;
+	font-style: italic;
+	font-size: 12px;
+}
+
+
+/* ======================================================== TABLE.PRETTY STYLE */
+
+table.pretty {
+	width: 100%;
+	font-size: 12px;
+	color: #333;
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+table.pretty tr.odd,
+tr.odd {
+	background-color: #EFEFEF;
+	color: #333;
+}
+
+table.pretty tr:hover {
+	background-image: url(../assets/input_bg.png);
+	background-repeat: repeat-x;
+	background-position: top center
+	color: #000;
+}
+table.pretty tr.noHover:hover {
+	background-color: white;
+	background-image: none;
+}
+
+table.pretty th {
+	padding: 15px 5px 5px 5px;
+}
+
+table.pretty td {
+	padding: 8px 5px;
+}
+
+table.pretty a {
+	text-decoration: none;
+	color: #333;
+}
+
+table.pretty a:hover {
+	color: #000;
+	border-bottom: 1px solid black;	
+}
+
+table.pretty td.leftCol {
+	width: 220px;
+}
+
+table.pretty td.middleCol {
+	width: 480px;
+}
+
+table.pretty td.righttCol {
+	width: 90px;
+}
+
+
+table.pretty td.deletebtn {
+	text-align: right;
+}
+
+
+/* ======================================================== TABLE.FORM STYLE */
+
+div.tableWrap {
+	width: 660px;
+}
+
+table.form {
+
+}
+
+table.form tr:hover {
+	
+}
+
+table.form tr.trTop {
+	background-image: url(../assets/input_bgw.jpg);
+	background-position: top center;
+	background-repeat: repeat-x;
+}
+
+
+table.form tr.trBot {
+	border-bottom: 1px solid #FCFCFC;
+	background-image: url(../assets/input_bgw2.jpg);
+	background-position: bottom center;
+	background-repeat: repeat-x;
+}
+
+table.form tr.trTop td {
+	padding-top: 10px;
+}
+
+table.form tr.trBot td {
+	padding-bottom: 5px;
+}
+
+table.form td {
+	vertical-align: center;
+	padding: 5px 0;
+}
+
+table.form td.top,
+table.pretty td.top {
+	vertical-align: top;
+}
+
+table.form td.label,
+table.pretty td.label {
+	padding-right: 10px;
+	width: 150px;
+	vertical-align: top;
+}
+
+table.form td.input {
+	padding-top: 0px;
+}
+
+table.form td.more {
+	padding-left: 10px;
+	width: 150px;
+	vertical-align: top;
+}
+
+td.more a {
+}
+
+td.more a:hover {
+	text-shadow: 0 0 3px #666;
+}
+
+table.pretty td.top {
+	vertical-align: top;
+}
+
+table.pretty td.middle {
+	vertical-align: middle;
+}
+
+table.pretty tr.InActive a {
+	color: gray;
+}
+
+table.pretty td.thumbs img {
+	float: left;
+	padding-right: 10px;
+}
+
+/* ======================================================== SUPPORT & SUPPORTGROUP */
+
+div.support {
+	position: relative;
+	top: 0px;
+	z-index: 20;
+	width: 150px;
+	float: right;
+	margin-left: 10px;
+}
+
+div.order div.support {
+	top: 40px;
+	right: 10px;
+	z-index: 200;
+}
+
+
+div.support button,
+div.support a.button {
+	width: 100%;
+}
+
+div.supportGroup {
+	border: 1px solid silver;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 10px 0;	
+}
+
+div.content.padded.rightAlign {
+	margin-top: 10px;
+}
+
+div.rightAlign {
+	width: 790px;
+	float: right;
+	text-align: right;
+}
+
+/* ======================================================== ORDER PAGES */
+
+hgroup.order {
+	padding: 10px 10px 0 10px
+}
+
+hgroup.order h1 {
+	float: left;
+}
+
+hgroup.order h3 {
+	float: right;
+}
+
+.content.order .tab_content {
+	margin-right: 160px;
+}
+
+/* ======================================================== TABLE.SUMMARY AND RELATED STYLES */
+
+table.summary,
+table.prodSummary {
+	color: #333;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+table.summary tr.odd {
+}
+
+table.summary td,
+table.prodSummary td,
+table.prodSummary th {
+	padding: 5px;
+	text-align: left;
+}
+
+table.summary td.label {
+	width: 160px;
+}
+
+table.summary td.info {
+}
+
+table.summary.product td.label {
+	width: 150px;
+	border-left: solid white 10px;
+}
+
+table.prodSummary {
+	margin: 0px;
+}
+
+/* ======================================================== ALPHA LIST TABS */
+
+ul.alpha {
+	list-style-type: none;
+	text-align: left;
+}
+ul.alpha li {
+	display: inline;
+	border-left: 1px solid white;
+	border-right: 1px solid silver;
+	margin: 0;
+	padding: 0 1em;
+	background-color: #EFEFEF;
+}
+ul.alpha li:last-child {
+	border-right: none;
+}
+
+ul.alpha li:first-child {
+	border-left: none;
+}
+
+ul.alpha a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #333;
+	text-shadow: 1px 1px 0 silver;
+}
+
+ul.alpha a:hover {
+	text-shadow: 0px 0px 5px  rgba(0,0,0,1);
+}
+
+ul.alpha li.selected {
+	background-color: white;
+}
+ul.alpha li.selected a {
+	font-weight: bold;
+	text-shadow: 1px 1px 0 silver;
+}
+
+
+/* ======================================================== PRE */
+
+pre {
+	background-color: #444;
+	border: 2px solid #666;
+	padding: 10px;
+	box-shadow: inset 0px 0px 15px #222;
+	margin: 0px 10px 20px 0px;
+	border-radius: 5px;
+	color: #F0F0F0;
+	font-size: 12px;
+	text-shadow: 0 0 2px rgba(250,250,250,0.3);
+}

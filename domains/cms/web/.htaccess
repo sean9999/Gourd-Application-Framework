@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /
+
+DirectoryIndex controller.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . /controller.php [L]

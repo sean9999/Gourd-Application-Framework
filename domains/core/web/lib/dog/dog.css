@@ -1,0 +1,11 @@
+.dog {
+	color: blue;
+}
+
+#doglogo {
+	display: block;
+	height: 379px;
+	width: 620px;
+	border: thin solid purple;
+	background-image: url("img/dog.png");
+}

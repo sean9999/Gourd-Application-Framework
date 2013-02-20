@@ -1,0 +1,137 @@
+.content .ui-tabs {
+	padding: 0px;
+	border-top-left-radius: 5px 5px;
+	border-top-right-radius: 5px 5px;	
+	min-height: 500px;
+}
+
+.content .ui-tabs .ui-tabs-nav {
+	padding-left: 5px;
+	height: 29px;
+	border-top-left-radius: 5px 5px;
+	border-top-right-radius: 5px 5px;
+}
+
+#tabs.ui-tabs .ui-tabs-selected {
+	color: black;
+	background-color: white;
+}
+
+
+/* ======================================================== BUTTONS */
+
+.ui-state-active.ui-button {
+	background: #777 url(../../../lib/jquery-ui/css/gourd-fett/images/ui-bg_inset-hard_65_777777_1x100.png) repeat-x 50% 50%;
+	border: 1px solid #AAA;
+	color: white;
+	text-shadow: 0 0 5px rgba(250,250,250,.8);
+}
+
+.ui-state-active.ui-button:hover,
+div.ui-widget .ui-widget-content .ui-autocomplete-input:hover {
+	border: 1px solid #007236;	
+}
+
+button.submit.ui-state-default {
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+button.cancel.ui-state-default {
+	border-color: #DDD;
+	color: #999;
+}
+
+button.cancel.ui-state-default:hover {
+	color: red;
+	border-color: red;
+	background-color: #EEE;
+}
+
+.ui-buttonset .ui-button {
+	margin-right: -8px;
+}
+
+button.widthfull {
+	width: 100%;
+}
+
+a.button.darker,
+button.darker.ui-state-default,
+button.darker.ui-state-default,
+button.darker.ui-widget-content .ui-state-default,
+button.darker.ui-widget-header .ui-state-default {
+	background: #CCCCCC;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#DDDDDD), to(#CCCCCC));
+}
+
+
+a.button.delete,
+button.delete.ui-state-default,
+button.delete.ui-state-default,
+button.delete.ui-widget-content .ui-state-default,
+button.delete.ui-widget-header .ui-state-default {
+	background: #CCCCCC;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#DDDDDD), to(#CCCCCC));
+	font-size: 11px;
+}
+
+
+/* ============================================================ JQUERYUI SELECT MENU */
+
+.ui-selectmenu { display: block; position:relative; height:22px; text-decoration: none; overflow:hidden;}
+.ui-selectmenu-icon { position:absolute; right:6px; margin-top:-8px; top: 50%; }
+.ui-selectmenu-menu { padding:0; margin:0; list-style:none; position:absolute; top: 0; visibility: hidden; overflow: auto; }
+.ui-selectmenu-open { visibility: visible; }
+.ui-selectmenu-menu-popup { margin-top: -1px; }
+.ui-selectmenu-menu-dropdown { }
+.ui-selectmenu-menu li { padding:0; margin:0; display: block; border-top: 1px dotted transparent; border-bottom: 1px dotted transparent; border-right-width: 0 !important; border-left-width: 0 !important; font-weight: normal !important; }
+.ui-selectmenu-menu li a,.ui-selectmenu-status {font-size: 12px; line-height: 16px; display:block; padding:.3em 1em; outline:none; text-decoration:none; }
+.ui-selectmenu-menu li.ui-selectmenu-hasIcon a,
+.ui-selectmenu-hasIcon .ui-selectmenu-status { padding-left: 20px; position: relative; margin-left: 5px; }
+.ui-selectmenu-menu li .ui-icon, .ui-selectmenu-status .ui-icon { position: absolute; top: 1em; margin-top: -8px; left: 0; }
+.ui-selectmenu-status { line-height: 1.4em; }
+.ui-selectmenu-open li.ui-selectmenu-item-focus a {  }
+.ui-selectmenu-open li.ui-selectmenu-item-selected { }
+.ui-selectmenu-menu li span,.ui-selectmenu-status span { display:block; margin-bottom: .2em; }
+.ui-selectmenu-menu li .ui-selectmenu-item-header { font-weight: bold; }
+.ui-selectmenu-menu li .ui-selectmenu-item-content {  }
+.ui-selectmenu-menu li .ui-selectmenu-item-footer { opacity: .8; }
+/*for optgroups*/
+.ui-selectmenu-menu .ui-selectmenu-group { font-size: 1em; }
+.ui-selectmenu-menu .ui-selectmenu-group .ui-selectmenu-group-label { line-height: 1.4em; display:block; padding:.6em .5em 0; font-weight: bold; }
+.ui-selectmenu-menu .ui-selectmenu-group ul { margin: 0; padding: 0; }
+
+.ui-selectmenu-menu.ui-widget.ui-widget-content {
+	background-color: rgba(255, 255, 255, 0.9);
+	background-image: none;
+}
+
+/* ============================================================ JQUERYUI SELECT MENU */
+
+.ui-button { 
+	margin-left: -1px; 
+}
+
+.ui-button-icon-only .ui-button-text { 
+	padding: 0.35em; 
+} 
+
+.ui-autocomplete-input {
+	margin: 0px;
+	padding: 4px 5px;
+	width: 273px;
+	background-color: #EFEFEF;
+	-webkit-: inset 0px 0px 5px rgba(0,0,0,0.2);
+}
+
+div.ui-widget .ui-widget-content .ui-autocomplete-input {
+	background-color: #EFEFEF;
+	-webkit-: inset 0px 0px 5px rgba(0,0,0,0.2);
+	background-image: none;
+}
+
+select#combobox {
+	display: none;
+}

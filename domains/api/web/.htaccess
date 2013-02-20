@@ -1,0 +1,6 @@
+Options -Indexes
+
+RewriteEngine On
+RewriteBase /
+
+RewriteRule !^control.php$ /control.php

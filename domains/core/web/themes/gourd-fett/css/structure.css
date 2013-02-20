@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* CSS Document */
+/* FETT */
+
+html,  body {
+	height:100%;
+	background-color: #CCCCCC;
+}
+
+#container {
+	min-width: 980px;
+	max-width: 1100px;
+	margin: 0 20px;	
+	padding-bottom:50px;	/* Height of the footer */
+	
+}
+
+#wrapper {
+	background-color: #B3B3B3;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#CCCCCC), to(#B3B3B3));
+	min-height:100%;
+	position:relative;
+	padding-top: 30px;
+}
+
+/* HEADER */
+
+
+header {
+	background-color: #333333;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#666666), to(#333333));
+	border-bottom: 2px solid #999999;
+	box-shadow: 0px 0px 15px #888;
+	height: 30px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+}
+
+header #box {
+	display: block;
+}
+
+#logo {
+	display: block;
+	width: 80px;
+	float: left;
+	margin-left: 20px;
+}
+
+header nav {
+	float: left;
+}
+
+/* FOOTER */
+
+footer {
+	background-color: #333333;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#666666), to(#333333));
+	border-top: 2px solid #999999;
+	box-shadow: 0px 0px 15px #888;
+	height: 30px;
+	vertical-align: bottom;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:30px;			/* Height of the footer */
+}
+
+	
+/* TORSO */
+
+#msgs {
+
+	margin-right: 20px;
+}
+
+#torso {
+}
+
+nav#sub {
+	background-color: #333333;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#666666), to(#333333));
+	border: 2px solid #666666;
+	padding: 5px auto;
+	box-shadow: 0px 0px 15px #888;
+	width: 146px;
+	margin: 0px 10px 20px 0px;
+	border-radius: 5px;
+	position: absolute;
+	top: 50px;
+}
+
+/* CONTENT */
+
+div.content {
+	box-shadow: 0px 0px 15px #888;
+	margin: 20px 0 20px 170px;
+	min-height: 200px;
+	background-color: white;
+	border-radius: 5px;
+}
+
+
+div.content.widget {
+	margin: 20px 0 20px 0px;
+	padding: 10px;
+}
+
+#log #container {
+	margin: 200px auto;
+}

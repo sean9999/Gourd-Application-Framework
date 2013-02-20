@@ -1,0 +1,61 @@
+.stage > a {
+	color: green !important;
+	text-decoration: none;
+}
+.prod > a {
+	color: purple !important;
+	text-decoration: none;
+}
+
+.stage a:hover, .prod a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+ul.legend::before {
+	content: attr(title);
+	color: black;
+}
+
+ul.legend {
+	box-shadow: 0px 0px 15px #888;
+	border-radius: 5px;
+	border: 1px solid silver;
+	margin-bottom: 1em;
+	background-color: #eee;	
+}
+
+ul.tree::before {
+	content: attr(title);
+	color: gray;	
+}
+
+ul.tree, ul.tree ul, ul.tree li {
+	list-style-type: none;
+}
+
+ul.tree, ul.tree ul {	
+	background: url(vline.png) repeat-y;
+	margin: 0;
+	padding: 0;
+}
+
+ul.tree {
+	margin-left: 50px;
+}
+
+ul.tree ul {
+	margin-left: 10px;
+}
+
+ul.tree li {
+	margin: 0;
+	padding: 0 12px;
+	line-height: 20px;
+	background: url(node.png) no-repeat;
+	font-weight: bold;
+}
+
+ul.tree li:last-child {
+	background: #fff url(lastnode.png) no-repeat;
+}

@@ -1,0 +1,3 @@
+function bark() {
+	alert('WOOF!');
+}

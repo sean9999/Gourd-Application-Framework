@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	font-family: Garamond, Georgia, serif;
+}
+
+#footer p,
+#footer p a {
+	color: white;
+	font-size: 12px;
+}
+
+#footer p a:hover {
+	color: black;
+	text-decoration: none;
+}

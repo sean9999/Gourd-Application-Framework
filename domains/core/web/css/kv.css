@@ -1,0 +1,29 @@
+.kv {
+	display:		table;
+	border-collapse:collapse;
+}
+
+.kv > li {
+	display:		table-row;
+}
+
+.kv > li:nth-child(odd) {
+	background-color: #EEF;
+}
+
+.kv > li > span {
+	border:			thin solid silver;
+	display:		table-cell;
+	padding: 		.33em;
+}
+
+.kv > li > span.k {
+	padding-right: 	1em;
+	font-weight:	bold;
+	color: 			navy;
+}
+
+.kv > li > span.k:after {
+	content:	":";
+	display:	inline;
+}

@@ -1,0 +1,53 @@
+/* ICONS & BUTTONS STYLESHEET */
+
+
+/* ======================================================== ICONS */
+
+td.more p {
+	padding: 0px 0px 3px 0px;
+}
+
+a.add,
+a.more {
+	background-image: url(../assets/icons/10-medical_sm.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	line-height: 16px;
+	padding: 2px 0 2px 20px;
+	color: gray;
+	text-decoration: none;
+}
+
+a.add {
+	font-size: 14px;
+}
+
+a.more {
+	font-size: 11px;
+}
+
+a.add:hover,
+a.more:hover {
+	color: black;
+}
+
+.addDetails {
+}
+
+.viewHistory {
+}
+
+.addNewProduct {
+}
+
+.addAnother {
+}
+
+.sendNote {
+}
+
+.flagNote {
+}
+
+.remindMe {
+}
