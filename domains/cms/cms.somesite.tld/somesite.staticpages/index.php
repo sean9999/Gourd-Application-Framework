@@ -10,19 +10,18 @@ switch ($view) {
 
 	case '':
 	case 'index':
-	case 'marquees':
 	case 'dashboard':
-		include 'dashboard.php';
-		break;
+	include 'dashboard.php';
+	break;
 	
 	default:
-		if (is_numeric($view)) {
-			$ModuleID = $view;
-			include 'thing.php';
-		} else {
-			include $view . '.php';
-		}
-		break;
+	if (is_numeric($view)) {
+		$ModuleID = $view;
+		include 'thing.php';
+	} else {
+		include $view . '.php';
+	}
+	break;
 }
 
 ?>
